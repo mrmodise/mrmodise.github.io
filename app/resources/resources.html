@@ -1,0 +1,73 @@
+<div class="row" ng-repeat="resource in resources">
+    <div class="col-lg-12">
+        <div class="card">
+            <h4>{{resource.title}}</h4>
+                <br>{{resource.intro}}
+        </div>
+        <br>
+        <div class="col-md-12">
+            <div class="row card">
+                <div class="col-md-4">
+                    <h4><img src="{{resource.bootsImg}}" width="55" height="55" alt="" >{{resource.bootsTitle}}</h4>
+                    <p class="text-justify">{{resource.bootsBody}}</p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h4><img src="{{resource.intelliJImg}}" height="50" width="50" alt=""> {{resource.intelliJTitle}}</h4>
+                    <p class="text-justify">{{resource.intelliJBody}}
+                        <p>
+                </div>
+                <div class="col-md-4">
+                    <h4><img src="{{resource.ubuntuImg}}" height="40" width="80" alt=""></h4>
+                    <p class="text-justify">{{resource.ubuntuBody}}</p>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="col-md-12">
+            <div class="row card">
+                <div class="col-md-4">
+                    <h4><img src="{{resource.bracketsImg}}" alt="" > {{resource.bracketsTitle}}</h4>
+                    <p class="text-justify">{{resource.bracketsBody}}</p>
+
+                </div>
+                 <div class="col-md-4">
+                    <h4><img src="{{resource.atomImg}}" width="55" height="55" alt="" >{{resource.atomTitle}}</h4>
+                    <p class="text-justify">{{resource.atomBody}}</p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4><img src="{{resource.eclipseImg}}" height="50" width="50" alt=""> {{resource.eclipseTitle}}</h4>
+                    <p class="text-justify">{{resource.eclipseBody}}</p>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="col-md-12 card">
+            <div class="row">
+                <h4>{{resource.trainingTitle}}</h4>
+                <p class="text-justify">{{resource.trainingBody}}</p>
+                <h4>{{resource.courseraTitle}}</h4>
+                <p class="text-justify">{{resource.courseraBody}}</p>
+
+                <h4>{{resource.udemyTitle}}</h4>
+                <p class="text-justify">{{resource.udemyBody}}</p>
+
+                <h4>{{resource.blogsTitle}}</h4>
+                <p class="text-justify">{{resource.blogsBody}}
+                    <ul>
+                        <li>{{resource.blogOne}}</li>
+                        <li>{{resource.blogTwo}}</li>
+                        <li>{{resource.blogThree}}</li>
+                        <li>{{resource.blogFour}}</li>
+                        <li>{{resource.blogFive}}</li>
+                        <li>{{resource.blogSix}}</li>
+                    </ul>
+                </p>
+                <hr>
+                <p class="text-justify"> <small>{{resource.lastUpdate}}</small>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,237 @@
+<div ng-repeat="project in projects">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-sm-12">
+                    <p class="text-justify">{{project.paraOne}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <!--*** my latest code developmenets ***-->
+        <div class="row">
+            <!--*** eTswana stores ***-->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive " src="{{project.eTswanaImg}}" alt="eTswana Stores">
+                    <div class="overlay ">
+                        <h2>{{project.eTswanaTitle}}</h2>
+                        <a target="_blank " href="{{project.eTswanaLink}}">{{project.eTswanaInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <!--*** senepe photo sharing app ***-->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive " src="{{project.senepeImg}}" alt="Senepe">
+                    <div class="overlay ">
+                        <h2>{{project.senepeTitle}}</h2>
+                        <a target="_blank " href="{{project.senepeLink}}">{{project.senepeInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <!--*** explore botswana ***-->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive " src="{{project.expBwImg}}" alt="Explore Botswana">
+                    <div class="overlay ">
+                        <h2>{{project.expBwTitle}}</h2>
+                        <a target="_blank " href="{{project.expBwLink}}">{{project.expBwInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <!--*** angular2 router ***-->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive " src="{{project.a2routerImg}}" alt="New Angular2 Router">
+                    <div class="overlay ">
+                        <h2>{{project.a2routerTitle}}</h2>
+                        <a target="_blank " href="{{project.a2routerLink}}">{{project.a2routerInstr}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- live projects -->
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive " src="{{project.mitImg}}" alt="UCT MIT Website ">
+                    <div class="overlay ">
+                        <h2>{{project.mitTitle}}</h2>
+                        <a target="_blank " href="{{project.mitLink}}">{{project.mitInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive " src="{{project.rekzImg}}" alt="Personal website ">
+                    <div class="overlay ">
+                        <h2>{{project.rekzTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.rekzLink}}" title="{{project.rekzLinkTitle}}">{{project.rekzInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.springFileUploadImg}}" alt="Spring hibernate and JPA">
+                    <div class="overlay">
+                        <h2>{{project.springFileUploadTitle}}</h2>
+                        <a target="_blank" href="{{project.springFileUploadLink}}">{{project.springFileUploadInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.xhosaImg}}" alt="isiXhosa Speech Recognizer ">
+                    <div class="overlay ">
+                        <h2>{{project.xhosaTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.xhosaLink}}" title="{{project.xhosaLinkTitle}}">{{project.xhosaInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- github commits -->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.ngFormImg}}" alt="Contact Form Angular2">
+                    <div class="overlay">
+                        <h2>{{project.ngFormTitle}}</h2>
+                        <a target="_blank" href="{{project.ngFormLink}}">{{project.ngFormLinkInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- github commits -->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.ngHelloImg}}" alt="Angular2 Hello World">
+                    <div class="overlay">
+                        <h2>{{project.ngHelloTitle}}</h2>
+                        <a target="_blank" href="{{project.ngHelloLink}}">{{project.ngHelloInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- github commits -->
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.nodeImg}}" alt="NodeJS login form">
+                    <div class="overlay">
+                        <h2>{{project.nodeTitle}}</h2>
+                        <a target="_blank" href="{{project.nodeLink}}">{{project.nodeInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- github commits -->
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.mongoImg}}" alt="CRUD functions mongodb">
+                    <div class="overlay ">
+                        <h2>{{project.mongoTitle}}</h2>
+                        <a target="_blank" href="{{project.mongoLink}}">{{project.mongoInstr}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.angularFormImg}}" alt="Contact Form AngularJS">
+                    <div class="overlay">
+                        <h2>{{project.angularFormTitle}}</h2>
+                        <a target="_blank" href="{{project.angularFormLink}}">{{project.angularFormInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.angularSearchImg}}" alt="Search Sort List AngularJS">
+                    <div class="overlay">
+                        <h2>{{project.angularSearchTitle}}</h2>
+                        <a target="_blank" href="{{project.angularSearchLink}}">{{project.angularSearchInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.infoImg}}" alt="Informal Settlements ">
+                    <div class="overlay ">
+                        <h2>{{project.infoTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.infoLink}}" title="{{project.infoLinkTitle}}">{{project.infoInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <div class="hovereffect thumbnail">
+                    <img class="img-responsive" src="{{project.ionicListImg}}" alt=" Ionic List View ">
+                    <div class="overlay ">
+                        <h2>{{project.ionicListTitle}}</h2>
+                        <a target="_blank" href="{{project.ionicListLink}}">{{project.ionicListInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.bookCartImg}}" alt="Books Cart AngularJS Tutorial ">
+                    <div class="overlay ">
+                        <h2>{{project.bookCartTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.bookCartInstr}}" title="{{project.bookCartLinkTitle}}">{{project.bookCartInstr}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.bootstrapImg}}" alt="Twitter Bootstrap tutorial ">
+                    <div class="overlay ">
+                        <h2>{{project.bootstrapTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.bootstrapLink}}" title="{{project.bootstrapLinkTitle}}">{{project.bootstrapInstr}}</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.aureliaImg}}" alt="Aurelia experiment ">
+                    <div class="overlay ">
+                        <h2>{{project.aureliaTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.aureliaLink}}" title="{{project.aureliaLinkTitle}}">{{project.aureliaInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- other tutorials -->
+            <div class="col-md-3 portfolio-item ">
+                <div class="hovereffect thumbnail ">
+                    <img class="img-responsive " src="{{project.dashImg}}" alt="Weather Dashboard ">
+                    <div class="overlay ">
+                        <h2>{{project.dashTitle}}</h2>
+                        <a rel="prettyPhoto[images1] " href="{{project.dashLink}}" title="{{project.dashLinkTitle}}">{{project.dashInstr}}</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+    <br>
+    <div class="card">
+        <div class="col-lg-12">
+            <p class="text-justify">{{project.paraTwo}} </p>
+        </div>
+
+        <hr>
+        <small>{{project.lastUpdate}}</small>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("[rel^='prettyPhoto' ] ").prettyPhoto();
+        });
+    </script>
+</div>
+</div>

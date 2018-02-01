@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /content/
+Disallow: /vendor/
+Disallow: /app/about/about.js
+Disallow: /app/contact/contact.js
+Disallow: /app/layout/
+Disallow: /app/projects/projects.js
+Disallow: /app/resources/resources.js
+Disallow: /app/data/
